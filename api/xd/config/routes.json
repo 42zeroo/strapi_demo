@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/xd",
+      "handler": "xd.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/xd",
+      "handler": "xd.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/xd",
+      "handler": "xd.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

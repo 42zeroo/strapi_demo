@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "xds",
+  "info": {
+    "name": "xd"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "adsdas": {
+      "type": "string"
+    },
+    "adsadsasd": {
+      "type": "richtext"
+    },
+    "asd": {
+      "type": "date"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "zxcasds",
+  "info": {
+    "name": "zxcasd"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Cena": {
+      "type": "decimal",
+      "min": 12
+    },
+    "opis": {
+      "type": "json"
+    }
+  }
+}

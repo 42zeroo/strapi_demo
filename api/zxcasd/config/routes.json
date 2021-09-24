@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/zxcasds",
+      "handler": "zxcasd.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/zxcasds/count",
+      "handler": "zxcasd.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/zxcasds/:id",
+      "handler": "zxcasd.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/zxcasds",
+      "handler": "zxcasd.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/zxcasds/:id",
+      "handler": "zxcasd.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/zxcasds/:id",
+      "handler": "zxcasd.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
